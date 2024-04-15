@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('./partials/head') %>
+</head>
+<body>
+    <main>
+        <div class="profile">
+            <div class="profile-avatar"></div>
+            <p><%= username %></p>
+        </div>
+        <section class="logo">
+            <img src="assets/logo.png" alt="logo">
+            <h1>SMART STUDY HUB</h1>
+        </section>
+        <section class="avg-score">
+            <h4>Average Score</h4>
+            <h4><%= avgScore %></h4>
+        </section>
+        <section class="search-subject">
+            <form action="" method="POST">
+                <select name="subject" id="subject">
+                    <option value="0">Select Subject</option>
+                    <option value="1">Math</option>
+                    <option value="2">Physics</option>
+                    <option value="3">History</option>
+                    <option value="4">English</option>
+                    <option value="5">Biology</option>
+                    <option value="6">Chemistry</option>
+                    <option value="7">Computer Science</option>                               
+                </select>
+                <select name="form" id="fom">
+                    <option value="0">Select Form</option>
+                    <option value="1">Form 1</option>
+                    <option value="2">Form 2</option>
+                    <option value="3">Form 3</option>
+                    <option value="4">Form 4</option>
+                </select>
+                <select name="quizes" id="quizes">
+                    <option value="0">Select Number of Questions</option>
+                    <option value="1">10</option>
+                    <option value="2">25</option>
+                    <option value="3">50</option>
+                </select>
+                <button type="submit">Start Quiz</button>
+            </form>
+        </section>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>

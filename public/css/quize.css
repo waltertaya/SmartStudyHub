@@ -1,0 +1,44 @@
+.main-container {
+    margin: 15px;
+    margin-left: 30px;
+}
+.back-arrow {
+    position: fixed;
+    top: 15px;
+    left: 30px;
+}
+.questions {
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.questions button {
+    background: rgba(3, 134, 134, 0.603);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    height: 40px;
+    cursor: pointer;
+    width: 100px;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+}
+.question {
+    margin-top: 20px;
+    font-size: 18px;
+}
+.option {
+    display: flex;
+    gap: 10px;
+    margin-left: 20px;
+}
+@media screen and (max-width: 767px) {
+    .main-container {
+        margin: 5px;
+        margin-left: 10px;
+    }
+    .questions {
+        margin-left: 30px;
+    }
+}

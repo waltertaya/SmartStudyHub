@@ -70,7 +70,8 @@ label[for="remember"] {
 input[type="text"], input[type="password"], input[type="email"] {
     max-width: 200px;
     width: 100%;
-    border: 1px solid #000000;
+    border: none;
+    background-color: #f1f1f1;
     border-radius: 5px;
     height: 30px;
 }
