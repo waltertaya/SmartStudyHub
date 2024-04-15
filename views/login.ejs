@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('./partials/head') %>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <%- include('./partials/header') %>
+        </header>
+        <section class="active-bar-login">
+            <div class="active-bar"></div>
+        </section>
+        <form action="login" method="POST">
+            <label for="username"><span>Username</span>
+                <input type="text" name="username" id="username" autocomplete="additional-name" required>
+            </label><br>
+            <label for="password"><span>Password</span>
+                <input type="password" name="password" id="password" autocomplete="additional-name" required>
+            </label><br>
+            <label for="remember">
+                <input type="checkbox" name="remember" id="remember">
+                Remember Me</label><br>
+            <a class="forgot-password" href="/views/forgot-password.html">Forgot Password</a><br>
+            <button type="submit">Sign In</button>
+        </form>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
