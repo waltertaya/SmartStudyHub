@@ -1,4 +1,7 @@
 const router = require('express').Router()
+const db = require('../DB/db')
+const { hashPassword, comparePassword } = require('../DB/hashing/auth')
+const User = require('../DB/models/users')
 
 
 router.get('/login', (req, res) => {
@@ -8,6 +11,52 @@ router.get('/login', (req, res) => {
 router.get('/signup', (req, res) => {
     res.render('signup')
 })
+
+router.post('/login', async (req, res) => {
+    const { username, password } = req.body;
+    try {
+        const user = await User.findOne({
+            username
+        });
+        if (user) {
+            const isMatch = await comparePassword(password, user.password);
+            if (isMatch) {
+                req.session.user = user;
+                res.redirect('/')
+            } else {
+                res.redirect('/login')
+            }
+        } else {
+            res.redirect('/login')
+        }
+    } catch (error) {
+        console.log(error);
+        res.redirect('/login')
+    }
+})
+
+router.post('/signup', async (req, res) => {
+    const { fullname, username, email, password, 'con-password': confirmPassword } = req.body;
+
+    if (!fullname || !username || !email || !password || !confirmPassword || password !== confirmPassword) {
+        return res.redirect('/signup');
+    }
+
+    try {
+        const user = new User({
+            fullname,
+            username,
+            email,
+            password: await hashPassword(password)
+        });
+        await user.save();
+        res.redirect('/login');
+    } catch (error) {
+        console.log(error);
+        res.redirect('/signup');
+    }
+});
+
 
 // Ensure login is required for all routes
 // router.use((req, res, next) => {
