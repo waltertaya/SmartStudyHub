@@ -1,7 +1,5 @@
-const signupEl = document.querySelector('.signup');
-const activeBarEl = document.querySelector('.active-bar-signup');
+const backArrowEl = document.querySelector('.back-arrow');
 
-signupEl.addEventListener('click', () => {
-    // activeBarEl.style.justifyContent = 'flex-end';
-    console.log('clicked');
+backArrowEl.addEventListener('click', () => {
+    window.history.back();
 });

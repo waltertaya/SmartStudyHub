@@ -9,25 +9,25 @@
             <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="m7.825 13l5.6 5.6L12 20l-8-8l8-8l1.425 1.4l-5.6 5.6H20v2z"/></svg>
         </div>
         <div class="questions">
-            <form action="" method="post">
+            <form action="/quiz" method="post">
                 <% for(let index = 0; index < data.length; index++) { %>
                     <div class="question">
                         <% if (data[index]) { %>
                             <p><%= index + 1 %>. <%= data[index].question %></p>
                             <div class="options">
-                                <input type="radio" name="question<%= index %>" value="<%= data[index].options[0] %>">
+                                <input type="radio" name="<%= data[index]._id %>" value="<%= data[index].options['a'] %>">
                                 <label for="option1"><%= data[index].options['a'] %></label>
                             </div>
                             <div class="options">
-                                <input type="radio" name="question<%= index %>" value="<%= data[index].options[1] %>">
+                                <input type="radio" name="<%= data[index]._id %>" value="<%= data[index].options['b'] %>">
                                 <label for="option2"><%= data[index].options['b'] %></label>
                             </div>
                             <div class="options">
-                                <input type="radio" name="question<%= index %>" value="<%= data[index].options[2] %>">
+                                <input type="radio" name="<%= data[index]._id %>" value="<%= data[index].options['c'] %>">
                                 <label for="option3"><%= data[index].options['c'] %></label>
                             </div>
                             <div class="options">
-                                <input type="radio" name="question<%= index %>" value="<%= data[index].options[3] %>">
+                                <input type="radio" name="<%= data[index]._id %>" value="<%= data[index].options['d'] %>">
                                 <label for="option4"><%= data[index].options['d'] %></label>
                             </div>
                         <% } %>
@@ -35,6 +35,7 @@
                 <% } %>                
                 <button type="submit">Submit</button>
             </form>
+            
         </div>
         
         </div>

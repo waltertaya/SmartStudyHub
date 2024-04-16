@@ -6,7 +6,11 @@ const scoresSchema = new Schema({
         type: String,
         required: true
     },
-    score: {
+    avgscore: {
+        type: Number,
+        required: true
+    },
+    testtaken: {
         type: Number,
         required: true
     }

@@ -7,6 +7,9 @@
     top: 15px;
     left: 30px;
 }
+.back-arrow:hover {
+    cursor: pointer;
+}
 .questions {
     margin-top: 20px;
     margin-left: 50px;

@@ -7,6 +7,7 @@ const Chemistry = require('../DB/models/subjects/chemistry')
 const Physics = require('../DB/models/subjects/physics')
 const Biology = require('../DB/models/subjects/biology')
 const Computer = require('../DB/models/subjects/computer')
+const scores = require('../DB/models/scores')
 
 
 router.get('/login', (req, res) => {
@@ -19,6 +20,8 @@ router.get('/signup', (req, res) => {
 
 router.post('/login', async (req, res) => {
     const { username, password } = req.body;
+
+    req.session.username = username;
     try {
         const user = await User.findOne({
             username
@@ -66,18 +69,30 @@ router.post('/signup', async (req, res) => {
     }
 });
 
+router.get('/logout', (req, res) => {
+    req.session.destroy();
+    res.redirect('/login');
+})
 
-// Ensure login is required for all routes
-// router.use((req, res, next) => {
-//     if (req.session.user) {
-//         next()
-//     } else {
-//         res.redirect('/login')
-//     }
-// })
+router.use((req, res, next) => {
+    if (req.session.user) {
+        next()
+    } else {
+        res.redirect('/login')
+    }
+})
 
-router.get('/', (req, res) => {
-    res.render('home', { username:'waltertaya', avgScore: '50%' })
+router.get('/', async (req, res) => {
+    const userScore = await scores.findOne({ username: req.session.username });
+    if (!userScore) {
+        const newScore = new scores({
+            username: req.session.username,
+            avgscore: 0,
+            testtaken: 0
+        });
+        await newScore.save();
+    }
+    res.render('home', { username: req.session.username , avgScore: `${userScore.avgscore} %` })
 })
 
 router.post('/', (req, res) => {
@@ -131,19 +146,45 @@ router.get('/quiz', async (req, res) => {
             data.push(quizes[i]);
         }
 
-        // console.log('Query Parameters:', { subject, form });
-        // console.log('Quizes:', quizes);
-        // console.log('Data:', data);
-
         if (data.length === 0) {
             console.warn('No quizzes found for the given criteria.');
         }
 
+        req.session.data = data;
         res.render('quize', { data });
     } catch (err) {
         console.error('Error fetching quizzes:', err);
         res.redirect('/');
     }
+});
+
+router.post('/quiz', async (req, res) => {
+    const { data } = req.session;
+    const answers = Object.entries(req.body);
+
+    console.log(answers);
+
+    if (!data || !answers) {
+        console.error('No data or answers found.');
+        res.redirect('/');
+        return;
+    }
+
+    let score = 0;
+    for (let i = 0; i < answers.length; i++) {
+        for (let j = 0; j < data.length; j++) {
+            if (answers[i][0] === data[j]._id.toString() && answers[i][1] === data[j].answer) {
+                score += data[j].marks;
+            }
+        }
+    }
+
+    const userScore = await scores.findOne({ username: req.session.username });
+    const testtaken = userScore.testtaken + 1;
+    const avgscore = ((userScore.avgscore * userScore.testtaken) + score) / testtaken;
+    await scores.updateOne({ username: req.session.username }, { avgscore, testtaken });
+
+    res.redirect('/');
 });
 
 
