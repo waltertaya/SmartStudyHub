@@ -1,0 +1,88 @@
+{
+    "questions": [
+        {
+            "question": "In a Physics experiment, a student filled a burette with water up to a level of 15 ml. The student ran out 3 drops of water each of volume 2 cm from the burette into a beaker. Determine the final reading of the burette.",
+            "options": {
+                "a": "15 ml",
+                "b": "14.94 ml",
+                "c": "14.94 cm",
+                "d": "15 cm"
+            },
+            "answer": "14.94 ml",
+            "marks": 3,
+            "form": 1
+        },
+        {
+            "question": "State two factors that affect the angular velocity of a body moving in a circular path",
+            "options": {
+                "a": "Mass and radius of the body",
+                "b": "Mass and speed of the body",
+                "c": "Radius and speed of the body",
+                "d": "Mass and time of the body"
+            },
+            "answer": "Radius and speed of the body",
+            "marks": 3,
+            "form": 4
+        },
+        {
+            "question": "In an experiment, a drop of black ink is introduced at the bottom of a container filled with water. It is observed that the water gradually turns black. State the effect on the observation when the experiment is carried out using water at a lower temperature.",
+            "options": {
+                "a": "The water will turn black faster",
+                "b": "The water will turn black slower",
+                "c": "The water will not turn black",
+                "d": "The water will turn black at the same rate"
+            },
+            "answer": "The water will turn black slower",
+            "marks": 2,
+            "form": 2
+        },
+        {
+            "question": "Define the term 'specific latent heat of fusion' of a substance",
+            "options": {
+                "a": "The amount of heat required to change a unit mass of a substance from solid to liquid state without a change in temperature",
+                "b": "The amount of heat required to change a unit mass of a substance from liquid to solid state without a change in temperature",
+                "c": "The amount of heat required to change a unit mass of a substance from solid to liquid state with a change in temperature",
+                "d": "The amount of heat required to change a unit mass of a substance from liquid to solid state with a change in temperature"
+            },
+            "answer": "The amount of heat required to change a unit mass of a substance from solid to liquid state without a change in temperature",
+            "marks": 2,
+            "form": 3
+        },
+        {
+            "question": "A student carries out an experiment to determine the focal length of a concave mirror. The student places the object pin between the principal focus and the pole of the mirror. State the position of the image formed.",
+            "options": {
+                "a": "Between the principal focus and the pole of the mirror",
+                "b": "At the principal focus of the mirror",
+                "c": "At the pole of the mirror",
+                "d": "Beyond the principal focus of the mirror"
+            },
+            "answer": "Beyond the principal focus of the mirror",
+            "marks": 2,
+            "form": 1
+        },
+        {
+            "question": "State the effect on the period of a simple pendulum when the length of the pendulum is increased",
+            "options": {
+                "a": "The period increases",
+                "b": "The period decreases",
+                "c": "The period remains the same",
+                "d": "The period becomes zero"
+            },
+            "answer": "The period increases",
+            "marks": 2,
+            "form": 4
+        },
+        {
+            "question": " Ice of mass 5g at a temperature of -10°C is immersed into 10.5g of hot water at 100°C in a container of negligible heat capacity. All the ice melts and the final temperature of the mixture is 40°C. Assuming there are no heat losses to the surrounding and taking the specific latent heat of fusion for ice as L (Cwar = 4200 Jkg-K and C = 2100 Jkg 'K). Determine the: i. heat lost by the hot water. ii. heat gained by ice from -10°C to 0°C. iii. heat required to melt the ice in terms of Lf iv. heat gained by the melted ice. v. specific latent heat of fusion of ice.",
+            "options": {
+                "a": "i. 88200 J, ii. 10500 J, iii. 2100 J, iv. 31500 J, v. 2100 Jkg-1",
+                "b": "i. 88200 J, ii. 10500 J, iii. 2100 J, iv. 31500 J, v. 4200 Jkg-1",
+                "c": "i. 88200 J, ii. 10500 J, iii. 4200 J, iv. 31500 J, v. 2100 Jkg-1",
+                "d": "i. 88200 J, ii. 10500 J, iii. 4200 J, iv. 31500 J, v. 4200 Jkg-1"
+            },
+            "answer": "i. 88200 J, ii. 10500 J, iii. 2100 J, iv. 31500 J, v. 2100 Jkg-1",
+            "marks": 15,
+            "form": 2
+        }
+    ]
+}

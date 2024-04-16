@@ -1,0 +1,208 @@
+{
+    "questions": [
+        {
+            "question": "Evaluate 1⅘ ÷ ⅔ of 2¼ -3/10 OVER 5/6 + 22/39 + 1 2/11",
+            "options": {
+                "a": "3",
+                "b": "5",
+                "c": "7",
+                "d": "9"
+            },
+            "answer": "b) 5",
+            "marks": 1,
+            "form": 1
+        },
+        {
+            "question": "Two bells ring at intervals of 35 and 42 minutes respectively. The bells ring together at 8.48 a.m. Determine the time when the bells will ring together again.",
+            "options": {
+                "a": "10:24 a.m.",
+                "b": "10:30 a.m.",
+                "c": "10:36 a.m.",
+                "d": "10:42 a.m."
+            },
+            "answer": "a) 10:24 a.m.",
+            "marks": 3,
+            "form": 1
+        },
+        {
+            "question": "Complete the figure below to show a rotational symmetry of order 3 about O.",
+            "options": {
+                "a": "Figure A",
+                "b": "Figure B",
+                "c": "Figure C",
+                "d": "Figure D"
+            },
+            "answer": "a) Figure A",
+            "marks": 2,
+            "form": 2
+        },
+        {
+            "question": "Solve 5/3 -2x <1 – 2/3x ≤ 2 - x. Hence list the integral values that satisfy the inequalities.",
+            "options": {
+                "a": "{x | 0 ≤ x < 2}",
+                "b": "{x | 1 ≤ x < 3}",
+                "c": "{x | 2 ≤ x < 4}",
+                "d": "{x | 3 ≤ x < 5}"
+            },
+            "answer": "b) {x | 1 ≤ x < 3}",
+            "marks": 2,
+            "form": 2
+        },
+        {
+            "question": "The size of two interior angles of an irregular polygon each measures 90°. All the other remaining interior angles each measure 150°. Determine the number of sides of the polygon.",
+            "options": {
+                "a": "6",
+                "b": "7",
+                "c": "8",
+                "d": "9"
+            },
+            "answer": "a) 6",
+            "marks": 2,
+            "form": 2
+        },
+        {
+            "question": "In a race Kipsang maintained an average speed of 5 m/s. When he was 310 m to the finishing line, Mutunga was 50 m behind him. However, Mutunga finished the race 10 m ahead of Kipsang. Determine Mutunga's average speed.",
+            "options": {
+                "a": "5.5 m/s",
+                "b": "6 m/s",
+                "c": "6.5 m/s",
+                "d": "7 m/s"
+            },
+            "answer": "b) 6 m/s",
+            "marks": 3,
+            "form": 1
+        },
+        {
+            "question": "Simplify (4 + 2y)²– (2y – 4)²",
+            "options": {
+                "a": "8y",
+                "b": "12y",
+                "c": "16y",
+                "d": "20y"
+            },
+            "answer": "c) 16y",
+            "marks": 1,
+            "form": 3
+        },
+        {
+            "question": "A table is sold at Ksh 4,500 and a chair at Ksh 2,000. A salesman earns a commission of 8% on every table and 5% on every chair sold. On a certain week, he sold 3 more chairs than tables and his total earnings were Ksh 3,980. Determine the number of chairs he sold that week.",
+            "options": {
+                "a": "10",
+                "b": "12",
+                "c": "14",
+                "d": "16"
+            },
+            "answer": "c) 14",
+            "marks": 3,
+            "form": 1
+        },
+        {
+            "question": "A translation T maps A(-6, 2) onto A'(3,5). Determine the translation vector T.",
+            "options": {
+                "a": "(9, 3)",
+                "b": "(9, 7)",
+                "c": "(3, 5)",
+                "d": "(6, 3)"
+            },
+            "answer": "a) (9, 3)",
+            "marks": 2,
+            "form": 2
+        },
+        {
+            "question": "The cost of one litre of Petrol is Ksh 110. John's vehicle covers 12 km on one litre of petrol. He used Ksh 2,805 on petrol to travel from town A to town B. Jane's vehicle consumes 12.5 litres of Petrol for every 100 km travelled. Calculate the amount of money that Jane would use to travel from town A to B on the same road.",
+            "options": {
+                "a": "Ksh 2,860",
+                "b": "Ksh 2,950",
+                "c": "Ksh 3,040",
+                "d": "Ksh 3,130"
+            },
+            "answer": "a) Ksh 2,860",
+            "marks": 3,
+            "form": 1
+        },
+        {
+            "question": "Solve for θ: sin (2θ -15) = cos 3θ",
+            "options": {
+                "a": "10°",
+                "b": "15°",
+                "c": "20°",
+                "d": "25°"
+            },
+            "answer": "b) 15°",
+            "marks": 2,
+            "form": 4
+        },
+        {
+            "question": "Line AB drawn below is a side of a trapezium ABCD. Using a ruler and pair of compasses only, complete trapezium ABCD in which AB is parallel to DC,∠BAD= 67.5°, AD = 5 cm, BC = 5.5 cm and ∠ABC is acute.",
+            "options": {
+                "a": "Figure A",
+                "b": "Figure B",
+                "c": "Figure C",
+                "d": "Figure D"
+            },
+            "answer": "a) Figure A",
+            "marks": 5,
+            "form": 4
+        },
+        {
+            "question": "Ali left Mombasa for Nairobi on Tuesday at 2.30 a.m. He arrived in Mtito Andei after 3 hours 12 minutes. He stayed in Mtito Andei for 36 hours and then left for Nairobi. He took 5 hours 25 minutes to arrive in Nairobi. Determine the day and time in the 12 hour system Ali arrived in Nairobi.",
+            "options": {
+                "a": "Thursday, 8:55 a.m.",
+                "b": "Thursday, 9:55 a.m.",
+                "c": "Thursday, 10:55 a.m.",
+                "d": "Thursday, 11:55 a.m."
+            },
+            "answer": "b) Thursday, 9:55 a.m.",
+            "marks": 3,
+            "form": 1
+        },
+        {
+            "question": "The height of a cone is 12 cm. A frustrum whose volume is one eighth the volume of the cone is cut off. Determine the height of the frustrum.",
+            "options": {
+                "a": "3 cm",
+                "b": "4 cm",
+                "c": "5 cm",
+                "d": "6 cm"
+            },
+            "answer": "c) 5 cm",
+            "marks": 3,
+            "form": 1
+        },
+        {
+            "question": "Solve the equation 8x+1 – 23x-1 = 120.",
+            "options": {
+                "a": "x = 1",
+                "b": "x = 2",
+                "c": "x = 3",
+                "d": "x = 4"
+            },
+            "answer": "a) x = 1",
+            "marks": 2,
+            "form": 2
+        },
+        {
+            "question": "A curve is given by y=2x³- 3x² – 12x + 12. Find the gradient function of the curve.",
+            "options": {
+                "a": "6x² - 6x - 12",
+                "b": "6x² - 6x + 12",
+                "c": "4x² - 4x - 8",
+                "d": "4x² - 4x + 8"
+            },
+            "answer": "a) 6x² - 6x - 12",
+            "marks": 2,
+            "form": 2
+        },
+        {
+            "question": "Determine the equation of the normal to the curve at the point (1,-1), in the form y = mx + c, where m and c are constants.",
+            "options": {
+                "a": "y = -x - 2",
+                "b": "y = x - 2",
+                "c": "y = -x + 2",
+                "d": "y = x + 2"
+            },
+            "answer": "a) y = -x - 2",
+            "marks": 2,
+            "form": 2
+        }
+    ]
+}

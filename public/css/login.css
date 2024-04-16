@@ -68,6 +68,8 @@ label[for="remember"] {
     display: unset;
 }
 input[type="text"], input[type="password"], input[type="email"] {
+    padding-left: 8px;
+    padding-right: 5px;
     max-width: 200px;
     width: 100%;
     border: none;
@@ -83,6 +85,11 @@ button {
     font-size: 20px;
     height: 40px;
     cursor: pointer;
+}
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
 }
 @media screen and (max-width: 767px) {
     label {

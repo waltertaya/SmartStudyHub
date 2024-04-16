@@ -1,0 +1,124 @@
+{
+    "questions": [
+        {
+            "question": "What is the study of living organisms called?",
+            "options": {
+                "a": "Chemistry",
+                "b": "Biology",
+                "c": "Physics",
+                "d": "Geography"
+            },
+            "answer": "b) Biology",
+            "marks": 1,
+            "form": 1
+        },
+        {
+            "question": "Which of the following is the basic unit of life?",
+            "options": {
+                "a": "Cell",
+                "b": "Tissue",
+                "c": "Organ",
+                "d": "Organism"
+            },
+            "answer": "a) Cell",
+            "marks": 1,
+            "form": 1
+        },
+        {
+            "question": "What is the process by which plants make their food called?",
+            "options": {
+                "a": "Photosynthesis",
+                "b": "Respiration",
+                "c": "Digestion",
+                "d": "Circulation"
+            },
+            "answer": "a) Photosynthesis",
+            "marks": 1,
+            "form": 1
+        },
+        {
+            "question": "Which organ in the human body is responsible for pumping blood?",
+            "options": {
+                "a": "Lungs",
+                "b": "Liver",
+                "c": "Heart",
+                "d": "Kidney"
+            },
+            "answer": "c) Heart",
+            "marks": 1,
+            "form": 2
+        },
+        {
+            "question": "What is the main function of the nervous system?",
+            "options": {
+                "a": "Digestion",
+                "b": "Movement",
+                "c": "Communication",
+                "d": "Reproduction"
+            },
+            "answer": "c) Communication",
+            "marks": 2,
+            "form": 4
+        },
+        {
+            "question": "Which gas do plants release during photosynthesis?",
+            "options": {
+                "a": "Oxygen",
+                "b": "Carbon Dioxide",
+                "c": "Nitrogen",
+                "d": "Hydrogen"
+            },
+            "answer": "a) Oxygen",
+            "marks": 1,
+            "form": 2
+        },
+        {
+            "question": "What is the longest bone in the human body?",
+            "options": {
+                "a": "Femur",
+                "b": "Humerus",
+                "c": "Radius",
+                "d": "Ulna"
+            },
+            "answer": "a) Femur",
+            "marks": 2,
+            "form": 4
+        },
+        {
+            "question": "Which organ in the human body produces insulin?",
+            "options": {
+                "a": "Pancreas",
+                "b": "Liver",
+                "c": "Kidney",
+                "d": "Spleen"
+            },
+            "answer": "a) Pancreas",
+            "marks": 1,
+            "form": 3
+        },
+        {
+            "question": "What is the largest organ in the human body?",
+            "options": {
+                "a": "Brain",
+                "b": "Liver",
+                "c": "Skin",
+                "d": "Heart"
+            },
+            "answer": "c) Skin",
+            "marks": 3,
+            "form": 3
+        },
+        {
+            "question": "Which of the following is NOT a component of blood?",
+            "options": {
+                "a": "Plasma",
+                "b": "Platelets",
+                "c": "Red Blood Cells",
+                "d": "White Blood Cells"
+            },
+            "answer": "d) White Blood Cells",
+            "marks": 1,
+            "form": 3
+        }
+    ]
+}

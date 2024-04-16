@@ -1,0 +1,124 @@
+{
+    "questions": [
+        {
+            "question": "Calculate the values of X and Y in the following nuclear equation. 239U_> X Th+2 oc+2/3 92 Y",
+            "options": {
+                "a": "X=239, Y=238",
+                "b": "X=239, Y=234",
+                "c": "X=235, Y=238",
+                "d": "X=235, Y=234"
+            },
+            "answer": "X=239, Y=235",
+            "marks": 3,
+            "form": 2
+        },
+        {
+            "question": "The empirical formula of lead(II) oxide was determined by passing excess dry hydrogen gas over 6.69g of heated lead(II) oxide. (a) What was the purpose of using excess dry hydrogen gas? (b) The mass of lead was found to he 6.21g.Determine the empirical formula of the oxide. (Pb = 207.0 0 = 16.0)",
+            "options": {
+                "a": "(a) To reduce the oxide to the metal (b) PbO",
+                "b": "(a) To reduce the oxide to the metal (b) Pb2O",
+                "c": "(a) To reduce the oxide to the metal (b) PbO2",
+                "d": "(a) To reduce the oxide to the metal (b) Pb2O3"
+            },
+            "answer": "(a) To reduce the oxide to the metal (b) PbO",
+            "marks": 3,
+            "form": 2
+        },
+        {
+            "question": "The following data was obtained when a student carried out an experiment to determine the enthalpy change for the reaction between zinc and dilute hydrochloric acid. (a) Write the equation for the reaction. (b) Calculate the enthalpy change for the reaction. (Zn = 65.4, H = 1.0, Cl = 35.5)",
+            "options": {
+                "a": "(a) Zn(s) + 2HCl(aq) -> ZnCl2(aq) + H2(g) (b) -92.4kJ",
+                "b": "(a) Zn(s) + 2HCl(aq) -> ZnCl2(aq) + H2(g) (b) -92.4kJ",
+                "c": "(a) Zn(s) + 2HCl(aq) -> ZnCl2(aq) + H2(g) (b) -92.4kJ",
+                "d": "(a) Zn(s) + 2HCl(aq) -> ZnCl2(aq) + H2(g) (b) -92.4kJ"
+            },
+            "answer": "(a) Zn(s) + 2HCl(aq) -> ZnCl2(aq) + H2(g) (b) -92.4kJ",
+            "marks": 3,
+            "form": 3
+        },
+        {
+            "question": "What is the chemical formalae for rust?",
+            "options": {
+                "a": "Fe2O3",
+                "b": "FeO",
+                "c": "Fe3O4",
+                "d": "Fe(OH)3"
+            },
+            "answer": "Fe2O3",
+            "marks": 3,
+            "form": 1
+        },
+        {
+            "question": "A sample of water is suspected to contain sulphate ions. Describe an experiment that can be carried out to determine the presence of sulphate ions.",
+            "options": {
+                "a": "Add dilute hydrochloric acid and barium chloride solution to the sample",
+                "b": "Add dilute hydrochloric acid and barium nitrate solution to the sample",
+                "c": "Add dilute sulphuric acid and barium chloride solution to the sample",
+                "d": "Add dilute sulphuric acid and barium nitrate solution to the sample"
+            },
+            "answer": "Add dilute hydrochloric acid and barium chloride solution to the sample",
+            "marks": 3,
+            "form": 4
+        },
+        {
+            "question": " Copper(II) ions react with excess aqueous ammonia to form a complex ion. (a) (i) Write an equation for the reaction that forms the complex ion. (ii) Name the complex ion. (b) Explain why CH4 is not acidic while HCl is acidic yet both compounds contain hydrogen.",
+            "options": {
+                "a": "(a) (i) Cu2+(aq) + 4NH3(aq) -> [Cu(NH3)4]2+(aq) (ii) Tetraamminecopper(II) ion (b) CH4 is not acidic because it does not contain hydrogen",
+                "b": "(a) (i) Cu2+(aq) + 4NH3(aq) -> [Cu(NH3)4]2+(aq) (ii) Tetraamminecopper(II) ion (b) CH4 is not acidic because it does not contain hydrogen",
+                "c": "(a) (i) Cu2+(aq) + 4NH3(aq) -> [Cu(NH3)4]2+(aq) (ii) Tetraamminecopper(II) ion (b) CH4 is not acidic because it does not contain hydrogen",
+                "d": "(a) (i) Cu2+(aq) + 4NH3(aq) -> [Cu(NH3)4]2+(aq) (ii) Tetraamminecopper(II) ion (b) CH4 is not acidic because it does not contain hydrogen"
+            },
+            "answer": "(a) (i) Cu2+(aq) + 4NH3(aq) -> [Cu(NH3)4]2+(aq) (ii) Tetraamminecopper(II) ion (b) CH4 is not acidic because it does not contain hydrogen",
+            "marks": 10,
+            "form": 3
+        },
+        {
+            "question": "20 cm3 of ethanoic acid was diluted to 400 cm3 of solution. Calculate the concentration of the solution in moles per litre. (C = 12.0 ; H = 1.0 ; 0 =16.0) (Density of ethanoic acid = 1.05 g/cm3)",
+            "options": {
+                "a": "0.5 mol/dm3",
+                "b": "0.1 mol/dm3",
+                "c": "0.05 mol/dm3",
+                "d": "0.01 mol/dm3"
+            },
+            "answer": "0.5 mol/dm3",
+            "marks": 3,
+            "form": 2
+        },
+        {
+            "question": "Explain the observation made when chlorine gas is passed through a solution of potassium iodide.",
+            "options": {
+                "a": "A brown gas is evolved",
+                "b": "A yellow gas is evolved",
+                "c": "A purple gas is evolved",
+                "d": "A colourless gas is evolved"
+            },
+            "answer": "A brown gas is evolved",
+            "marks": 3,
+            "form": 4
+        },
+        {
+            "question": "In an experiment, concentrated nitric(V) acid was reacted with iron(II) sulphate. State and explain the observations made.",
+            "options": {
+                "a": "A brown gas is evolved",
+                "b": "A yellow gas is evolved",
+                "c": "A purple gas is evolved",
+                "d": "A colourless gas is evolved"
+            },
+            "answer": "A brown gas is evolved",
+            "marks": 3,
+            "form": 4
+        },
+        {
+            "question": " Explain how a student can establish whether a liquid sample extracted from a plant is pure. Anode Cathode",
+            "options": {
+                "a": "By measuring the boiling point of the liquid",
+                "b": "By measuring the melting point of the liquid",
+                "c": "By measuring the freezing point of the liquid",
+                "d": "By measuring the density of the liquid"
+            },
+            "answer": "By measuring the boiling point of the liquid",
+            "marks": 3,
+            "form": 4
+        }
+    ]
+}

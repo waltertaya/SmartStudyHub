@@ -13,4 +13,6 @@ try {
     console.log(error);
 }
 
+// const { Physics } = require('./fsdb');
+
 module.exports = mongoose;

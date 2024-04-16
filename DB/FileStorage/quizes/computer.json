@@ -1,0 +1,244 @@
+{
+    "questions": [
+        {
+            "question": "What is a computer?",
+            "options": {
+                "a": "A manual data processing machine.",
+                "b": "An electronic device that processes data and produces information.",
+                "c": "A tool for storing and organizing physical documents.",
+                "d": "A device used for communication purposes."
+            },
+            "answer": "b) An electronic device that processes data and produces information.",
+            "marks": 1,
+            "form": 1
+        },
+        {
+            "question": "Which of the following is NOT a characteristic of a computer?",
+            "options": {
+                "a": "Speed",
+                "b": "Accuracy",
+                "c": "Reliability",
+                "d": "Creativity"
+            },
+            "answer": "d) Creativity",
+            "marks": 1,
+            "form": 1
+        },
+        {
+            "question": "What is the purpose of programs in a computer?",
+            "options": {
+                "a": "To store data temporarily",
+                "b": "To process data and produce output",
+                "c": "To display information on the screen",
+                "d": "To connect to the internet"
+            },
+            "answer": "b) To process data and produce output",
+            "marks": 3,
+            "form": 1
+        },
+        {
+            "question": "What is the difference between data and information?",
+            "options": {
+                "a": "Data is processed, while information is unprocessed.",
+                "b": "Data is meaningful, while information is raw facts.",
+                "c": "Data is the end-product of data processing, while information is unprocessed facts.",
+                "d": "Data is unprocessed facts, while information is processed and meaningful data."
+            },
+            "answer": "d) Data is unprocessed facts, while information is processed and meaningful data.",
+            "marks": 2,
+            "form": 1
+        },
+        {
+            "question": "Which of the following is NOT a characteristic of a computer's storage capacity?",
+            "options": {
+                "a": "Large storage in a small space",
+                "b": "Protection of data with passwords",
+                "c": "Ability to store data for later use",
+                "d": "Limited storage capacity"
+            },
+            "answer": "d) Limited storage capacity",
+            "marks": 2,
+            "form": 2
+        },
+        {
+            "question": "What does GIGO stand for in relation to computers?",
+            "options": {
+                "a": "Great Input, Great Output",
+                "b": "Garbage In, Garbage Out",
+                "c": "Good Information, Good Output",
+                "d": "Good Input, Good Output"
+            },
+            "answer": "b) Garbage In, Garbage Out",
+            "marks": 3,
+            "form": 3
+        },
+        {
+            "question": "How does a computer ensure accuracy in its operations?",
+            "options": {
+                "a": "By eliminating all errors",
+                "b": "By having built-in error-detection and correction mechanisms",
+                "c": "By relying on human intervention",
+                "d": "By performing tasks at a slow pace"
+            },
+            "answer": "b) By having built-in error-detection and correction mechanisms",
+            "marks": 2,
+            "form": 4
+        },
+        {
+            "question": "What advantage does a computerized system have over a manual system?",
+            "options": {
+                "a": "Increased speed and accuracy",
+                "b": "Reduced storage capacity",
+                "c": "Limited functionality",
+                "d": "Higher cost"
+            },
+            "answer": "a) Increased speed and accuracy",
+            "marks": 3,
+            "form": 3
+        },
+        {
+            "question": "In which field can computers be used for decision-making?",
+            "options": {
+                "a": "Healthcare",
+                "b": "Agriculture",
+                "c": "Finance",
+                "d": "All of the above"
+            },
+            "answer": "d) All of the above",
+            "marks": 1,
+            "form": 2
+        },
+        {
+            "question": "What is the unit used to measure the speed of a computer?",
+            "options": {
+                "a": "Bytes",
+                "b": "Megahertz (MHz) or gigahertz (GHz)",
+                "c": "Kilograms",
+                "d": "Inches"
+            },
+            "answer": "b) Megahertz (MHz) or gigahertz (GHz)",
+            "marks": 1,
+            "form": 4
+        },
+        {
+            "question": "How does automation apply to computers?",
+            "options": {
+                "a": "Computers can work without any instructions.",
+                "b": "Computers can perform tasks automatically based on predefined instructions.",
+                "c": "Computers can only perform one specific task.",
+                "d": "Computers can make decisions on their own."
+            },
+            "answer": "b) Computers can perform tasks automatically based on predefined instructions.",
+            "marks": 2,
+            "form": 1
+        },
+        {
+            "question": "What is the role of passwords in computer systems?",
+            "options": {
+                "a": "To prevent unauthorized access to stored data.",
+                "b": "To increase the speed of the computer.",
+                "c": "To improve the accuracy of the computer.",
+                "d": "To enhance the versatility of the computer."
+            },
+            "answer": "a) To prevent unauthorized access to stored data.",
+            "marks": 3,
+            "form": 2
+        },
+        {
+            "question": "How does a computer handle errors during its operation?",
+            "options": {
+                "a": "By ignoring errors and continuing with the process.",
+                "b": "By displaying error messages and stopping the process.",
+                "c": "By automatically correcting errors without any intervention.",
+                "d": "By shutting down immediately to prevent further errors."
+            },
+            "answer": "b) By displaying error messages and stopping the process.",
+            "marks": 2,
+            "form": 3
+        },
+        {
+            "question": "What are the essential characteristics of information?",
+            "options": {
+                "a": "Accurate, timely, complete, and relevant",
+                "b": "Vague, outdated, incomplete, and irrelevant",
+                "c": "Inaccurate, delayed, complex, and unnecessary",
+                "d": "Random, partial, irrelevant, and unreliable"
+            },
+            "answer": "a) Accurate, timely, complete, and relevant",
+            "marks": 1,
+            "form": 4
+        },
+        {
+            "question": "How can computers contribute to increased productivity in the workplace?",
+            "options": {
+                "a": "By slowing down processes for accuracy.",
+                "b": "By reducing the need for human involvement.",
+                "c": "By creating more paperwork and manual tasks.",
+                "d": "By decreasing the storage capacity of important data."
+            },
+            "answer": "b) By reducing the need for human involvement.",
+            "marks": 3,
+            "form": 1
+        },
+        {
+            "question": "In which real-life scenario would a computer be most useful?",
+            "options": {
+                "a": "Managing a small business inventory",
+                "b": "Cooking a gourmet meal",
+                "c": "Writing a novel by hand",
+                "d": "Painting a masterpiece"
+            },
+            "answer": "a) Managing a small business inventory",
+            "marks": 2,
+            "form": 2
+        },
+        {
+            "question": "How are computers used in the field of education?",
+            "options": {
+                "a": "To substitute teachers in classrooms",
+                "b": "To facilitate online learning and research",
+                "c": "To write exams on behalf of students",
+                "d": "To discourage critical thinking skills"
+            },
+            "answer": "b) To facilitate online learning and research",
+            "marks": 3,
+            "form": 3
+        },
+        {
+            "question": "What is the role of output devices in a computer system?",
+            "options": {
+                "a": "To accept data and instructions",
+                "b": "To process data and produce output",
+                "c": "To store data and instructions temporarily",
+                "d": "To display or present processed information"
+            },
+            "answer": "d) To display or present processed information",
+            "marks": 2,
+            "form": 4
+        },
+        {
+            "question": "Which of the following is an example of an input device?",
+            "options": {
+                "a": "Printer",
+                "b": "Monitor",
+                "c": "Keyboard",
+                "d": "Speaker"
+            },
+            "answer": "c) Keyboard",
+            "marks": 1,
+            "form": 1
+        },
+        {
+            "question": "How can computers be used in the entertainment industry?",
+            "options": {
+                "a": "To replace actors in movies",
+                "b": "To create special effects in films",
+                "c": "To compose music without human involvement",
+                "d": "To discourage creativity in artistic endeavors"
+            },
+            "answer": "b) To create special effects in films",
+            "marks": 3,
+            "form": 2
+        }
+    ]
+}
