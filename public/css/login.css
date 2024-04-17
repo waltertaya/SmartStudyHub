@@ -92,6 +92,11 @@ button {
     margin-top: 10px;
 }
 @media screen and (max-width: 767px) {
+    .container {
+        max-width: 300px;
+        padding: 24px;
+        margin: 0 auto;
+    }
     label {
         display: flex;
         flex-direction: column;
