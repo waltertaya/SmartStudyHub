@@ -83,6 +83,8 @@ router.use((req, res, next) => {
 })
 
 router.get('/', async (req, res) => {
+    const usersDetails = await User.findOne({ username: req.session.username });
+
     const userScore = await scores.findOne({ username: req.session.username });
     if (!userScore) {
         const newScore = new scores({
@@ -91,8 +93,10 @@ router.get('/', async (req, res) => {
             testtaken: 0
         });
         await newScore.save();
-    }
-    res.render('home', { username: req.session.username , avgScore: `${userScore.avgscore} %` })
+        res.render('home', { username: req.session.username , avgScore: `0 %`, fullname: usersDetails.fullname, email: usersDetails.email });
+    } else {
+        res.render('home', { username: req.session.username , avgScore: `${userScore.avgscore} %`,  fullname: usersDetails.fullname, email: usersDetails.email });
+    }    
 })
 
 router.post('/', (req, res) => {
@@ -162,8 +166,6 @@ router.post('/quiz', async (req, res) => {
     const { data } = req.session;
     const answers = Object.entries(req.body);
 
-    console.log(answers);
-
     if (!data || !answers) {
         console.error('No data or answers found.');
         res.redirect('/');
@@ -171,6 +173,7 @@ router.post('/quiz', async (req, res) => {
     }
 
     let score = 0;
+    let totalMarks = 0;
     for (let i = 0; i < answers.length; i++) {
         for (let j = 0; j < data.length; j++) {
             if (answers[i][0] === data[j]._id.toString() && answers[i][1] === data[j].answer) {
@@ -178,10 +181,16 @@ router.post('/quiz', async (req, res) => {
             }
         }
     }
-
+    for (let j = 0; j < data.length; j++) {
+        totalMarks += data[j].marks;
+    }
     const userScore = await scores.findOne({ username: req.session.username });
-    const testtaken = userScore.testtaken + 1;
-    const avgscore = ((userScore.avgscore * userScore.testtaken) + score) / testtaken;
+    let testtaken = userScore.testtaken;
+    let percentage = (score / totalMarks) * 100;
+    let currentAvg = userScore.avgscore;
+    let updatedAvg = ((currentAvg * testtaken) + percentage) / (testtaken + 1);
+    testtaken += 1;
+    const avgscore = updatedAvg.toFixed(2);
     await scores.updateOne({ username: req.session.username }, { avgscore, testtaken });
 
     res.redirect('/');

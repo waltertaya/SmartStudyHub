@@ -8,6 +8,18 @@
         <div class="profile">
             <div class="profile-avatar"></div>
             <p><%= username %></p>
+            <div class="profile-details">
+                <p class="upload-profile">Profile picture</p>
+                <p style="margin-top: 10px;" ><%= email %></p>
+                <p style="margin-top: 10px; margin-bottom: 10px;"><%= fullname %></p>
+                <a href="/logout">Logout</a>
+            </div>
+        </div>
+        <div class="new-profile-pic">
+            <form action="/" method="POST" enctype="multipart/form-data">
+                <input type="file" name="profile-pic" id="profile-pic">
+                <button class="submit-upload" style="margin-top: 15px;" type="submit">Upload</button>
+            </form>
         </div>
         <section class="logo">
             <img src="assets/logo.png" alt="logo">
@@ -18,7 +30,7 @@
             <h4><%= avgScore %></h4>
         </section>
         <section class="search-subject">
-            <form action="" method="POST">
+            <form action="/" method="POST">
                 <select name="subject" id="subject">
                     <option value="0">Select Subject</option>
                     <option value="Math">Math</option>
