@@ -181,14 +181,22 @@ router.post('/quiz', async (req, res) => {
             }
         }
     }
+    // console.log('Score:', score);
     for (let j = 0; j < data.length; j++) {
         totalMarks += data[j].marks;
     }
+    // console.log('Total Marks:', totalMarks);
     const userScore = await scores.findOne({ username: req.session.username });
     let testtaken = userScore.testtaken;
+    // console.log('Test Taken:', testtaken);
     let percentage = (score / totalMarks) * 100;
+    // console.log('Percentage:', percentage);
     let currentAvg = userScore.avgscore;
-    let updatedAvg = ((currentAvg * testtaken) + percentage) / (testtaken + 1);
+    // console.log('Current Average:', currentAvg);
+    let totalScore = currentAvg * testtaken;
+    // console.log('Total Score:', totalScore);
+    let updatedAvg = (totalScore + percentage) / (testtaken + 1);
+    // console.log('Updated Average:', updatedAvg);
     testtaken += 1;
     const avgscore = updatedAvg.toFixed(2);
     await scores.updateOne({ username: req.session.username }, { avgscore, testtaken });
